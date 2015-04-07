@@ -1,9 +1,9 @@
 {
   "name": "smartcrop",
   "version": "0.0.1",
-  "description": "Content aware image cropping.",
-  "homepage": "https://github.com/jwagner/smartcrop.js",
-  "author": "Jonas Wagner <jonas@29a.ch> (http://29a.ch/)",
+  "description": "Content aware image cropping. Disabled skin detect",
+  "homepage": "https://github.com/ofertix/smartcrop.js",
+  "author": "Ofertix - Jonas Wagner fork",
   "main": "./smartcrop",
   "devDependencies": {
     "grunt-contrib-watch": "~0.6.1",
@@ -18,6 +18,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jwagner/smartcrop.js.git"
+    "url": "https://github.com/ofertix/smartcrop.js.git"
   }
 }
