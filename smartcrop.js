@@ -282,7 +282,7 @@ SmartCrop.prototype = {
         var input = ctx.getImageData(0, 0, canvas.width, canvas.height),
             output = ctx.getImageData(0, 0, canvas.width, canvas.height);
         this.edgeDetect(input, output);
-        this.skinDetect(input, output);
+        //this.skinDetect(input, output);
         this.saturationDetect(input, output);
 
         var scoreCanvas = this.canvas(ceil(image.width/options.scoreDownSample), ceil(image.height/options.scoreDownSample)),
